@@ -1,0 +1,39 @@
+.sect2_hero{
+   height: 200px;
+  
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.sect2_hero_text{
+    max-width: 1200px;
+    // flex-wrap: wrap;
+    display: flex;
+    margin: auto;
+    align-items: center;
+    justify-content: space-between;
+    
+   
+}
+.sect2_text{
+    display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+.sect2_text_icon{
+    font-size: 25px;
+    color: #F45D96;
+}
+.yazi{
+    display: flex;
+    flex-direction: column;
+    gap: 7px;
+    h3{
+        font-size: 23px;
+    }
+    p{
+        font-size: 18px;
+        opacity: 0.8;
+    }
+}

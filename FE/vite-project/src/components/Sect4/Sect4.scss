@@ -1,0 +1,51 @@
+.sect4_hero{
+    background-image: url(https://preview.colorlib.com/theme/florist/img/call-bg.jpg.webp);
+    height: 500px;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+}
+.sect4_info{
+    margin: auto;
+    max-width: 1200px;
+    width: 100%;
+    flex-direction: column;
+    display: flex;
+    gap: 20px;
+}
+.sect4_text{
+    color: white;
+   
+    max-width: 1200px;
+    width: 100%;
+    flex-direction: column;
+    display: flex;
+    gap: 20px;
+   p{
+    width: 400px;
+    font-family: "Dancing Script", cursive;
+    font-optical-sizing: auto;
+    font-size: 45px;
+    font-style: normal;
+   }
+}
+.sect4_btn{
+    display: flex;
+   gap: 20px;
+    button{
+        width: 120px;
+        height: 42px;
+        border-radius: 15px;
+        border-style: none;
+        font-size: 16px;
+    }
+    .one{
+        background-color: #F45D96;
+        color: white;
+    }
+    .two{
+        color:#F45D96
+    }
+}

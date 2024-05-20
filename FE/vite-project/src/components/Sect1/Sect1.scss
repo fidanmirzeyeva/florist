@@ -1,0 +1,43 @@
+.hero_sect1{
+    background-image:url(https://preview.colorlib.com/theme/florist/img/hero/hero-1.jpg.webp);
+    height: 600px;
+    background-repeat: no-repeat;
+    background-position: center;
+    object-fit: cover;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+   
+    
+   
+   
+    
+}
+.sect1_text{
+    margin: auto;
+    max-width: 1200px;
+    width: 100%;
+    flex-direction: column;
+    display: flex;
+    gap: 20px;
+    h4{
+        opacity: 0.8;
+        font-size: 18px;
+    }
+    h2{
+        width: 500px;
+       letter-spacing: 3px;
+        font-size: 35px;
+    }
+
+}
+.btn_sect{
+    cursor: pointer;
+    background-color: #F45D96;
+    width: 120px;
+    height: 50px;
+    color: white;
+    border-radius: 20px;
+    border-style: none;
+}
+

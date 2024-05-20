@@ -1,0 +1,24 @@
+.nav{
+    max-width: 1200px;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: auto;
+
+}
+.nav_name{
+    p{
+        font-weight: bold;
+        font-size: 25px;
+        letter-spacing: 2px;
+    }
+}
+.nav_list ul{
+    display: flex;
+    gap: 20px;
+    font-size: 18px;
+}
+.nav_list ul a:hover{
+    color: pink;
+}

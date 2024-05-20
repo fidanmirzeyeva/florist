@@ -1,0 +1,57 @@
+.sect3{
+   
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 50px;
+    padding-bottom: 50px;
+    justify-content: space-between;
+   
+}
+.sect3_hero_products{
+    width:100% ;
+    display: flex;
+    align-items: center;
+    
+    gap: 50px ;
+    justify-content: space-between;
+    max-width: 1200px;
+
+
+    
+}
+.sect3_hero_basliq{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    h5{
+        font-size: 15px;
+        color: #F45D96;
+          letter-spacing: 7px;
+    }
+    h3{
+        font-size: 35px;
+        letter-spacing: 7px;
+       
+    }
+
+}
+.products{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    flex-direction: column;
+    p{
+        font-size: 20px;
+    }
+    button{
+        cursor: pointer;
+        background-color: #F45D96;
+        color: white;
+        width: 100px;
+        height: 32px;
+        border-radius: 5px;
+        border-style: none;
+    }
+}
